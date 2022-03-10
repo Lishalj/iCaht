@@ -1,0 +1,92 @@
+.logo{
+    display: block;
+    margin: auto;
+    width:50px;
+    height: 50px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(80, 212, 80),rgb(255, 255, 255),rgb(80, 212, 80));
+    height: 100%;
+}
+
+.bg {
+        
+        max-width: 995px;
+        background-image: url(../bgimage.jpg);
+        margin: auto;
+        height: 80vh;
+        box-sizing: content-box;
+        
+    border-radius: 25px;
+    border: 2px solid rgb(125, 241, 125);
+        margin-bottom: 25px;
+}
+.container{
+   
+    max-width: 850px;
+    margin: auto;
+    height: 58vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+   
+    
+}
+.message{
+    width: auto;
+    
+    max-width:230px;
+    padding: 10px;
+    margin: 17px 8px;
+    border-radius: 10px;   
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(140, 160, 147);
+   
+}
+
+.left{
+    float: left;
+    clear: both;
+    border: none;
+    background-color: rgb(221, 204, 204); 
+}
+
+.right{
+    float:right;
+    border: none;
+    background-color: rgb(82, 226, 135);
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 92%;
+    position: absolute;
+    bottom: 4em;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+#messageInp {
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+    border: 2px solid rgb(8, 7, 7);
+    border-radius: 25px;
+    padding: 6px 12px;
+    height: 28px;
+}
+.btn{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    width:auto;
+    border-radius: 20px;
+    height: 43px;
+    font-size:15px;
+    box-shadow: 0px 3px 9px rgb(68, 61, 61);
+    background-color: rgb(56, 192, 106);
+}

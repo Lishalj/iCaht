@@ -1,0 +1,30 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "its an amazing chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lisha Jonwal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "randomcolor": "^0.6.2",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lishalj/iChat.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Lishalj/iChat/issues"
+  },
+  "homepage": "https://github.com/Lishalj/iChat#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
